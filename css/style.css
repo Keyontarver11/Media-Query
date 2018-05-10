@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box{
+    display:inline-block;
+    border: 1px solid black;
+    width: 250px;
+    height:350px;
+    text-align:center;
+    margin: 2vh 25px 2vh 25px;
+    color: black;
+}
+
+@media screen and (max-width:1250px) and (min-width:376px){
+
+    .box {
+        display:block;
+        border: 1px solid black;
+        width:200px;
+        height:300px; 
+      }
+    .left{
+        margin-right: 100vh;
+        float: left;
+        
+
+    }
+    .right{
+        margin-left: 100vh;
+        float:right;
+        
+    }
+
+    
+        
+    } 
+
+
+    
+  
+    
+    
+
+
+@media screen and (max-width:400px){
+        
+    .box{
+    
+        
+        display: block;
+            border: 1px solid black;
+            width:60vw;
+            height:40vh;
+            margin: 50px;
+        color: purple;
+    }
+}
